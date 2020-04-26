@@ -15,7 +15,13 @@ public class BaiTap1Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         Context c = new Context();
+        c.setTinhToan(new Cong());
+        System.out.println("75 + 12 = " + c.tinh(75, 12));
+        
+        c.setTinhToan((Tinh) new Tru());
+        System.out.println("\n");
+        System.out.println("54 - 87 = " + c.tinh(54, 78));
     }
     
 }

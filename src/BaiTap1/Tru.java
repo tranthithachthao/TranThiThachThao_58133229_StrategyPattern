@@ -13,8 +13,7 @@ public class Tru implements Tinh{
 
     @Override
     public float tinh(float a, float b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-   return a - b;
+    return a - b;
     }
     
 }

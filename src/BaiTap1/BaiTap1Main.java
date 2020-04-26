@@ -19,7 +19,7 @@ public class BaiTap1Main {
         c.setTinhToan(new Cong());
         System.out.println("75 + 12 = " + c.tinh(75, 12));
         
-        c.setTinhToan((Tinh) new Tru());
+        c.setTinhToan( new Tru());
         System.out.println("\n");
         System.out.println("54 - 87 = " + c.tinh(54, 78));
     }
